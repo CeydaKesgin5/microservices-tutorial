@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CeydaK\\source\\repos\\Microservices.Tutorial.Event.Store.Example\\",
+  "WorkspaceRootPath": "C:\\Users\\CeydaK\\Desktop\\microservices-tutorial\\Microservices.Tutorial.Event.Store.Example\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2455E8C-4198-42AF-900C-387F9C2130DB}|Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj|c:\\users\\ceydak\\source\\repos\\microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2455E8C-4198-42AF-900C-387F9C2130DB}|Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj|c:\\users\\ceydak\\desktop\\microservices-tutorial\\microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2455E8C-4198-42AF-900C-387F9C2130DB}|Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj|solutionrelative:microservices.tutorial.event.store.example\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2455E8C-4198-42AF-900C-387F9C2130DB}|Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj|c:\\users\\ceydak\\source\\repos\\microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B2455E8C-4198-42AF-900C-387F9C2130DB}|Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj|c:\\users\\ceydak\\desktop\\microservices-tutorial\\microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B2455E8C-4198-42AF-900C-387F9C2130DB}|Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj|solutionrelative:microservices.tutorial.event.store.example\\microservices.tutorial.event.store.example.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Microservices.Tutorial.Event.Store.Example.csproj",
-              "DocumentMoniker": "C:\\Users\\CeydaK\\source\\repos\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\microservices-tutorial\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
               "RelativeDocumentMoniker": "Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
-              "ToolTip": "C:\\Users\\CeydaK\\source\\repos\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\microservices-tutorial\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
               "RelativeToolTip": "Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\CeydaK\\source\\repos\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\microservices-tutorial\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Class1.cs",
               "RelativeDocumentMoniker": "Microservices.Tutorial.Event.Store.Example\\Class1.cs",
-              "ToolTip": "C:\\Users\\CeydaK\\source\\repos\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Class1.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\microservices-tutorial\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Class1.cs",
               "RelativeToolTip": "Microservices.Tutorial.Event.Store.Example\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAKgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T09:09:10.816Z",
               "EditorCaption": ""
@@ -74,10 +74,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",

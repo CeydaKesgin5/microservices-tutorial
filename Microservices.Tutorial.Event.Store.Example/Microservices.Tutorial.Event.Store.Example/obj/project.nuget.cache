@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g8XIRHxMHgY=",
+  "dgSpecHash": "gCdIb9DpZZY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CeydaK\\source\\repos\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
+  "projectFilePath": "C:\\Users\\CeydaK\\Desktop\\microservices-tutorial\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example\\Microservices.Tutorial.Event.Store.Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CeydaK\\.nuget\\packages\\eventstore.client.grpc\\23.3.8\\eventstore.client.grpc.23.3.8.nupkg.sha512",
     "C:\\Users\\CeydaK\\.nuget\\packages\\eventstore.client.grpc.streams\\23.3.8\\eventstore.client.grpc.streams.23.3.8.nupkg.sha512",
