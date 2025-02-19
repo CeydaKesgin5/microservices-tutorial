@@ -31,5 +31,15 @@ namespace Shared.Services
             type: @event.GetType().Name,
             data: JsonSerializer.SerializeToUtf8Bytes(@event)
             );
+
+        public async Task SubscribeToStreamAsync(string streamName,
+            Func<StreamSubscription, ResolvedEvent, CancellationToken, Task> eventAppeared)
+        => await Client.SubscribeToStreamAsync(
+            streamName: streamName,
+            start: FromStream.Start,
+            eventAppeared: eventAppeared,
+            subscriptionDropped: (streamSubscription, subscriptionDroppedReason, exception)//subscription koptuğu anda uygulanacak davranış
+            => Console.WriteLine("Disconnected!")
+            );
     }
 }

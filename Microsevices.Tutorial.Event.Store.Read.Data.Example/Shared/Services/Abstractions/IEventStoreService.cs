@@ -9,5 +9,11 @@ namespace Shared.Services.Abstractions
 
         Task AppendToStreamAsync(string streamName, IEnumerable<EventData> eventData);//Bu fonksiyon üzerinden evnetler EventStore a gönderilecek.
         EventData GenerateEventData(object @event);//EvenData oluşturacak method
+
+
+        //EventStore'daki ilgili sunucudaki seçili streamlere subscribe olur.
+        // subscribe esnasında gelen eventi yakalayacak olan method
+        Task SubscribeToStreamAsync(string streamName, Func<StreamSubscription, ResolvedEvent, CancellationToken, Task>
+            eventAppeared);
     }
 }

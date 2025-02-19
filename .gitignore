@@ -1,0 +1,44 @@
+# Visual Studio / .NET Genel Ayarları
+bin/
+obj/
+*.user
+*.suo
+*.log
+*.vs
+.vscode/
+
+# Derleme Çıktıları
+*.exe
+*.dll
+*.pdb
+
+# Geçici Dosyalar
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# Paketler
+*.nupkg
+*.snupkg
+packages/
+
+# Config Dosyaları
+*.config
+*.EditorConfig
+
+# Git'in İzlemesini İstemediğiniz Özel Dosyalar
+Microservice.Tutorial.Saga.Choreography.Project/obj/
+Microservice.Tutorial.Saga.Choreography.Project/bin/
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# MacOS
+*.DS_Store
+

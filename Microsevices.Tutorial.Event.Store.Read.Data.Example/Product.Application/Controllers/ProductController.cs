@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Product.Application.Models.ViewModels;
+using Shared.Events;
+using Shared.Services.Abstractions;
 
 namespace Product.Application.Controllers
 {
-    public class ProductController : Controller
+    public class ProductController(IEventStoreService eventStoreService) : Controller
     {
         public IActionResult Index()
         {
@@ -16,9 +18,22 @@ namespace Product.Application.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateProduct(CreateProductVM model)
+        public async Task<IActionResult> CreateProduct(CreateProductVM model)
         {
-            return View();
+            NewProductAddedEvent newProductAddedEvent = new()
+            {
+                ProductId=Guid.NewGuid().ToString(),
+                ProductName=model.ProductName,
+                InitialCount=model.Count,
+                InitialPrice=model.Price,
+                IsAvailable=model.IsAvailable
+            };
+
+            await eventStoreService.AppendToStreamAsync("product-stream", new[]//buradaki streame karşılık eventStore a göndermiş olduk
+            { eventStoreService.GenerateEventData(newProductAddedEvent)}//bu eventi 
+            );
+
+            return RedirectToAction("Index");
         }
 
 

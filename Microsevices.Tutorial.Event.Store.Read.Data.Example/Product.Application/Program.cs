@@ -1,6 +1,10 @@
+using Shared.Services;
+using Shared.Services.Abstractions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<IEventStoreService, EventStoreService>();
 
 var app = builder.Build();
 
