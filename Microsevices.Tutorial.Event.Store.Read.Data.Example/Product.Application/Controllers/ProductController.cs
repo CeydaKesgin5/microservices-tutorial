@@ -5,20 +5,24 @@ using Shared.Services.Abstractions;
 
 namespace Product.Application.Controllers
 {
-    public class ProductController(IEventStoreService eventStoreService) : Controller
+    public class ProductController(IEventStoreService eventStoreService, IMongoDBService mongoDBService) : Controller
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var productCollection = mongoDBService.GetCollection<Shared.Models.Product>("Products");
+            var products = await(await productCollection.FindAsync(_ => true).ToListAsync());
+
+
             return View();
         }
-
-        public IActionResult CreateProduct()
+         
+        public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateProduct(CreateProductVM model)
+        public async Task<IActionResult> Create(CreateProductVM model)
         {
             NewProductAddedEvent newProductAddedEvent = new()
             {
@@ -37,6 +41,14 @@ namespace Product.Application.Controllers
         }
 
 
+        public async  Task<IActionResult> Edit(string productId)
+        {
+            var productCollection = mongoDBService.GetCollection<Shared.Models.Product>("Products");
+            var product = await(await productCollection.FindAsync(p=>p.Id ==productId)).FirstOrDefaultAsync();
+
+            return View(product);
+
+        }
 
     }
 }

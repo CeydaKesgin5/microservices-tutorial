@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<IEventStoreService, EventStoreService>();
+builder.Services.AddSingleton<IMongoDBService, MongoDBService>();
 
 var app = builder.Build();
 

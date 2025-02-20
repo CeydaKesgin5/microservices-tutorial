@@ -1,14 +1,14 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Product.Event.Handler.Service.Models
+namespace Shared.Models
 {
     public class Product
     {
         [BsonId]
         [BsonRepresentation(BsonType.String)]
         [BsonElement(Order = 0)]
-        public ObjectId Id { get; set; }
+        public string Id { get; set; }
 
 
         [BsonRepresentation(BsonType.String)]
